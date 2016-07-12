@@ -7,12 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB3192911D351E4200272990 /* DroidSansFallback.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB3192721D351E4200272990 /* DroidSansFallback.ttf */; };
+		DB3192921D351E4200272990 /* DroidSansJapanese.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB3192731D351E4200272990 /* DroidSansJapanese.ttf */; };
+		DB3192931D351E4200272990 /* firasans-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB3192741D351E4200272990 /* firasans-medium.ttf */; };
+		DB3192941D351E4200272990 /* NotoNaskh-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB3192751D351E4200272990 /* NotoNaskh-Regular.ttf */; };
+		DB3192951D351E4200272990 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB3192761D351E4200272990 /* NotoSans-Regular.ttf */; };
+		DB3192961D351E4200272990 /* NotoSansHebrew-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB3192771D351E4200272990 /* NotoSansHebrew-Regular.ttf */; };
+		DB3192971D351E4200272990 /* roboto-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB3192781D351E4200272990 /* roboto-regular.ttf */; };
+		DB3192981D351E4200272990 /* arrow-3.png in Resources */ = {isa = PBXBuildFile; fileRef = DB31927A1D351E4200272990 /* arrow-3.png */; };
+		DB3192991D351E4200272990 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = DB31927B1D351E4200272990 /* cross.png */; };
+		DB31929A1D351E4200272990 /* cubemap.png in Resources */ = {isa = PBXBuildFile; fileRef = DB31927C1D351E4200272990 /* cubemap.png */; };
+		DB31929B1D351E4200272990 /* grid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB31927D1D351E4200272990 /* grid.jpg */; };
+		DB31929C1D351E4200272990 /* mapzen-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB31927E1D351E4200272990 /* mapzen-logo.png */; };
+		DB31929D1D351E4200272990 /* normals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB31927F1D351E4200272990 /* normals.jpg */; };
+		DB31929E1D351E4200272990 /* poi_icons_32.png in Resources */ = {isa = PBXBuildFile; fileRef = DB3192801D351E4200272990 /* poi_icons_32.png */; };
+		DB31929F1D351E4200272990 /* sem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB3192811D351E4200272990 /* sem.jpg */; };
+		DB3192A01D351E4200272990 /* test.yaml in Resources */ = {isa = PBXBuildFile; fileRef = DB3192831D351E4200272990 /* test.yaml */; };
+		DB3192A11D351E4200272990 /* import.yaml in Resources */ = {isa = PBXBuildFile; fileRef = DB3192841D351E4200272990 /* import.yaml */; };
+		DB3192A21D351E4200272990 /* raster-double.yaml in Resources */ = {isa = PBXBuildFile; fileRef = DB3192851D351E4200272990 /* raster-double.yaml */; };
+		DB3192A31D351E4200272990 /* raster-simple.yaml in Resources */ = {isa = PBXBuildFile; fileRef = DB3192861D351E4200272990 /* raster-simple.yaml */; };
+		DB3192A41D351E4200272990 /* raster-terrain.yaml in Resources */ = {isa = PBXBuildFile; fileRef = DB3192871D351E4200272990 /* raster-terrain.yaml */; };
+		DB3192A51D351E4200272990 /* scene.yaml in Resources */ = {isa = PBXBuildFile; fileRef = DB3192881D351E4200272990 /* scene.yaml */; };
+		DB31932A1D35215D00272990 /* tangram_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3192891D351E4200272990 /* tangram_framework.framework */; };
+		DB31932B1D35215D00272990 /* tangram_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB3192891D351E4200272990 /* tangram_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DB31932E1D35221000272990 /* DroidSansFallback.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB3192691D351E4200272990 /* DroidSansFallback.ttf */; };
+		DB31932F1D35221000272990 /* DroidSansJapanese.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB31926A1D351E4200272990 /* DroidSansJapanese.ttf */; };
+		DB3193301D35221000272990 /* firasans-medium.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB31926B1D351E4200272990 /* firasans-medium.ttf */; };
+		DB3193311D35221000272990 /* NotoNaskh-Regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB31926C1D351E4200272990 /* NotoNaskh-Regular.ttf */; };
+		DB3193321D35221000272990 /* NotoSans-Regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB31926D1D351E4200272990 /* NotoSans-Regular.ttf */; };
+		DB3193331D35221000272990 /* NotoSansHebrew-Regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB31926E1D351E4200272990 /* NotoSansHebrew-Regular.ttf */; };
+		DB3193341D35221000272990 /* roboto-regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB31926F1D351E4200272990 /* roboto-regular.ttf */; };
 		DB7A33D81C8F8E8B009CC743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7A33D71C8F8E8B009CC743 /* AppDelegate.swift */; };
 		DB7A33DA1C8F8E8B009CC743 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7A33D91C8F8E8B009CC743 /* ViewController.swift */; };
 		DB7A33DD1C8F8E8B009CC743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7A33DB1C8F8E8B009CC743 /* Main.storyboard */; };
 		DB7A33DF1C8F8E8B009CC743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7A33DE1C8F8E8B009CC743 /* Assets.xcassets */; };
 		DB7A33E21C8F8E8B009CC743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7A33E01C8F8E8B009CC743 /* LaunchScreen.storyboard */; };
 		DB7A33ED1C8F8E8B009CC743 /* ios_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7A33EC1C8F8E8B009CC743 /* ios_sdkTests.swift */; };
+		DBC84EA71C985BBB00EE80D8 /* MapzenSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC84EA61C985BBB00EE80D8 /* MapzenSearchManager.swift */; };
+		DBC84EA81C985BBB00EE80D8 /* MapzenSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC84EA61C985BBB00EE80D8 /* MapzenSearchManager.swift */; };
+		DBF441AE1D351B0A007DEE95 /* TangramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF441AD1D351B0A007DEE95 /* TangramVC.swift */; };
+		DBF441B01D351C90007DEE95 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF441AF1D351C90007DEE95 /* GLKit.framework */; };
 		DF296F1D39A4230257889944 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C35E8790FB3255237B1E77 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,9 +60,68 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DB31932C1D35215E00272990 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DB31932B1D35215D00272990 /* tangram_framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB31932D1D3521FD00272990 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = fonts;
+			dstSubfolderSpec = 6;
+			files = (
+				DB31932E1D35221000272990 /* DroidSansFallback.ttf in CopyFiles */,
+				DB31932F1D35221000272990 /* DroidSansJapanese.ttf in CopyFiles */,
+				DB3193301D35221000272990 /* firasans-medium.ttf in CopyFiles */,
+				DB3193311D35221000272990 /* NotoNaskh-Regular.ttf in CopyFiles */,
+				DB3193321D35221000272990 /* NotoSans-Regular.ttf in CopyFiles */,
+				DB3193331D35221000272990 /* NotoSansHebrew-Regular.ttf in CopyFiles */,
+				DB3193341D35221000272990 /* roboto-regular.ttf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		92C35E8790FB3255237B1E77 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6867A3C7E4941C042B75910 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DB3192691D351E4200272990 /* DroidSansFallback.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansFallback.ttf; sourceTree = "<group>"; };
+		DB31926A1D351E4200272990 /* DroidSansJapanese.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansJapanese.ttf; sourceTree = "<group>"; };
+		DB31926B1D351E4200272990 /* firasans-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasans-medium.ttf"; sourceTree = "<group>"; };
+		DB31926C1D351E4200272990 /* NotoNaskh-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoNaskh-Regular.ttf"; sourceTree = "<group>"; };
+		DB31926D1D351E4200272990 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		DB31926E1D351E4200272990 /* NotoSansHebrew-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansHebrew-Regular.ttf"; sourceTree = "<group>"; };
+		DB31926F1D351E4200272990 /* roboto-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.ttf"; sourceTree = "<group>"; };
+		DB3192721D351E4200272990 /* DroidSansFallback.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansFallback.ttf; sourceTree = "<group>"; };
+		DB3192731D351E4200272990 /* DroidSansJapanese.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansJapanese.ttf; sourceTree = "<group>"; };
+		DB3192741D351E4200272990 /* firasans-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "firasans-medium.ttf"; sourceTree = "<group>"; };
+		DB3192751D351E4200272990 /* NotoNaskh-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoNaskh-Regular.ttf"; sourceTree = "<group>"; };
+		DB3192761D351E4200272990 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		DB3192771D351E4200272990 /* NotoSansHebrew-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansHebrew-Regular.ttf"; sourceTree = "<group>"; };
+		DB3192781D351E4200272990 /* roboto-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.ttf"; sourceTree = "<group>"; };
+		DB31927A1D351E4200272990 /* arrow-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-3.png"; sourceTree = "<group>"; };
+		DB31927B1D351E4200272990 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		DB31927C1D351E4200272990 /* cubemap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubemap.png; sourceTree = "<group>"; };
+		DB31927D1D351E4200272990 /* grid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grid.jpg; sourceTree = "<group>"; };
+		DB31927E1D351E4200272990 /* mapzen-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapzen-logo.png"; sourceTree = "<group>"; };
+		DB31927F1D351E4200272990 /* normals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = normals.jpg; sourceTree = "<group>"; };
+		DB3192801D351E4200272990 /* poi_icons_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi_icons_32.png; sourceTree = "<group>"; };
+		DB3192811D351E4200272990 /* sem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sem.jpg; sourceTree = "<group>"; };
+		DB3192831D351E4200272990 /* test.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.yaml; sourceTree = "<group>"; };
+		DB3192841D351E4200272990 /* import.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = import.yaml; sourceTree = "<group>"; };
+		DB3192851D351E4200272990 /* raster-double.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "raster-double.yaml"; sourceTree = "<group>"; };
+		DB3192861D351E4200272990 /* raster-simple.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "raster-simple.yaml"; sourceTree = "<group>"; };
+		DB3192871D351E4200272990 /* raster-terrain.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "raster-terrain.yaml"; sourceTree = "<group>"; };
+		DB3192881D351E4200272990 /* scene.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scene.yaml; sourceTree = "<group>"; };
+		DB3192891D351E4200272990 /* tangram_framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tangram_framework.framework; sourceTree = "<group>"; };
 		DB7A33D41C8F8E8B009CC743 /* ios-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7A33D71C8F8E8B009CC743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB7A33D91C8F8E8B009CC743 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +132,9 @@
 		DB7A33E81C8F8E8B009CC743 /* ios-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7A33EC1C8F8E8B009CC743 /* ios_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_sdkTests.swift; sourceTree = "<group>"; };
 		DB7A33EE1C8F8E8B009CC743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC84EA61C985BBB00EE80D8 /* MapzenSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapzenSearchManager.swift; sourceTree = "<group>"; };
+		DBF441AD1D351B0A007DEE95 /* TangramVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TangramVC.swift; sourceTree = "<group>"; };
+		DBF441AF1D351C90007DEE95 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		F48818E5161A9E383CA1C689 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,7 +143,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF441B01D351C90007DEE95 /* GLKit.framework in Frameworks */,
 				DF296F1D39A4230257889944 /* Pods.framework in Frameworks */,
+				DB31932A1D35215D00272990 /* tangram_framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,14 +171,93 @@
 		CF541C01B2D071D0FF55D939 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBF441AF1D351C90007DEE95 /* GLKit.framework */,
 				92C35E8790FB3255237B1E77 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DB3192671D351E4200272990 /* tangram */ = {
+			isa = PBXGroup;
+			children = (
+				DB3192681D351E4200272990 /* fonts */,
+				DB3192701D351E4200272990 /* scenes */,
+				DB3192891D351E4200272990 /* tangram_framework.framework */,
+			);
+			path = tangram;
+			sourceTree = "<group>";
+		};
+		DB3192681D351E4200272990 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB3192691D351E4200272990 /* DroidSansFallback.ttf */,
+				DB31926A1D351E4200272990 /* DroidSansJapanese.ttf */,
+				DB31926B1D351E4200272990 /* firasans-medium.ttf */,
+				DB31926C1D351E4200272990 /* NotoNaskh-Regular.ttf */,
+				DB31926D1D351E4200272990 /* NotoSans-Regular.ttf */,
+				DB31926E1D351E4200272990 /* NotoSansHebrew-Regular.ttf */,
+				DB31926F1D351E4200272990 /* roboto-regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		DB3192701D351E4200272990 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DB3192711D351E4200272990 /* fonts */,
+				DB3192791D351E4200272990 /* img */,
+				DB3192821D351E4200272990 /* import */,
+				DB3192841D351E4200272990 /* import.yaml */,
+				DB3192851D351E4200272990 /* raster-double.yaml */,
+				DB3192861D351E4200272990 /* raster-simple.yaml */,
+				DB3192871D351E4200272990 /* raster-terrain.yaml */,
+				DB3192881D351E4200272990 /* scene.yaml */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		DB3192711D351E4200272990 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB3192721D351E4200272990 /* DroidSansFallback.ttf */,
+				DB3192731D351E4200272990 /* DroidSansJapanese.ttf */,
+				DB3192741D351E4200272990 /* firasans-medium.ttf */,
+				DB3192751D351E4200272990 /* NotoNaskh-Regular.ttf */,
+				DB3192761D351E4200272990 /* NotoSans-Regular.ttf */,
+				DB3192771D351E4200272990 /* NotoSansHebrew-Regular.ttf */,
+				DB3192781D351E4200272990 /* roboto-regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		DB3192791D351E4200272990 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				DB31927A1D351E4200272990 /* arrow-3.png */,
+				DB31927B1D351E4200272990 /* cross.png */,
+				DB31927C1D351E4200272990 /* cubemap.png */,
+				DB31927D1D351E4200272990 /* grid.jpg */,
+				DB31927E1D351E4200272990 /* mapzen-logo.png */,
+				DB31927F1D351E4200272990 /* normals.jpg */,
+				DB3192801D351E4200272990 /* poi_icons_32.png */,
+				DB3192811D351E4200272990 /* sem.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		DB3192821D351E4200272990 /* import */ = {
+			isa = PBXGroup;
+			children = (
+				DB3192831D351E4200272990 /* test.yaml */,
+			);
+			path = import;
+			sourceTree = "<group>";
+		};
 		DB7A33CB1C8F8E8B009CC743 = {
 			isa = PBXGroup;
 			children = (
+				DB3192671D351E4200272990 /* tangram */,
+				DBC84EA51C985B6D00EE80D8 /* src */,
 				DB7A33D61C8F8E8B009CC743 /* ios-sdk */,
 				DB7A33EB1C8F8E8B009CC743 /* ios-sdkTests */,
 				DB7A33D51C8F8E8B009CC743 /* Products */,
@@ -107,6 +284,7 @@
 				DB7A33DE1C8F8E8B009CC743 /* Assets.xcassets */,
 				DB7A33E01C8F8E8B009CC743 /* LaunchScreen.storyboard */,
 				DB7A33E31C8F8E8B009CC743 /* Info.plist */,
+				DBF441AD1D351B0A007DEE95 /* TangramVC.swift */,
 			);
 			path = "ios-sdk";
 			sourceTree = "<group>";
@@ -118,6 +296,15 @@
 				DB7A33EE1C8F8E8B009CC743 /* Info.plist */,
 			);
 			path = "ios-sdkTests";
+			sourceTree = "<group>";
+		};
+		DBC84EA51C985B6D00EE80D8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DBC84EA61C985BBB00EE80D8 /* MapzenSearchManager.swift */,
+			);
+			name = src;
+			path = "ios-sdk/src";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +320,8 @@
 				DB7A33D21C8F8E8B009CC743 /* Resources */,
 				03695D2FDDF492938D1DE947 /* Embed Pods Frameworks */,
 				A73759240A9387771080318A /* Copy Pods Resources */,
+				DB31932C1D35215E00272990 /* Embed Frameworks */,
+				DB31932D1D3521FD00272990 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -167,7 +356,7 @@
 		DB7A33CC1C8F8E8B009CC743 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Mapzen;
 				TargetAttributes = {
@@ -204,9 +393,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB31929D1D351E4200272990 /* normals.jpg in Resources */,
+				DB31929E1D351E4200272990 /* poi_icons_32.png in Resources */,
+				DB3192A11D351E4200272990 /* import.yaml in Resources */,
+				DB3192921D351E4200272990 /* DroidSansJapanese.ttf in Resources */,
+				DB31929C1D351E4200272990 /* mapzen-logo.png in Resources */,
+				DB3192941D351E4200272990 /* NotoNaskh-Regular.ttf in Resources */,
+				DB3192931D351E4200272990 /* firasans-medium.ttf in Resources */,
+				DB31929F1D351E4200272990 /* sem.jpg in Resources */,
+				DB31929A1D351E4200272990 /* cubemap.png in Resources */,
+				DB3192961D351E4200272990 /* NotoSansHebrew-Regular.ttf in Resources */,
+				DB3192A51D351E4200272990 /* scene.yaml in Resources */,
+				DB3192911D351E4200272990 /* DroidSansFallback.ttf in Resources */,
+				DB3192A01D351E4200272990 /* test.yaml in Resources */,
+				DB3192A21D351E4200272990 /* raster-double.yaml in Resources */,
 				DB7A33E21C8F8E8B009CC743 /* LaunchScreen.storyboard in Resources */,
+				DB3192991D351E4200272990 /* cross.png in Resources */,
+				DB3192981D351E4200272990 /* arrow-3.png in Resources */,
 				DB7A33DF1C8F8E8B009CC743 /* Assets.xcassets in Resources */,
+				DB3192951D351E4200272990 /* NotoSans-Regular.ttf in Resources */,
+				DB3192A41D351E4200272990 /* raster-terrain.yaml in Resources */,
+				DB3192A31D351E4200272990 /* raster-simple.yaml in Resources */,
 				DB7A33DD1C8F8E8B009CC743 /* Main.storyboard in Resources */,
+				DB31929B1D351E4200272990 /* grid.jpg in Resources */,
+				DB3192971D351E4200272990 /* roboto-regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +482,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC84EA71C985BBB00EE80D8 /* MapzenSearchManager.swift in Sources */,
+				DBF441AE1D351B0A007DEE95 /* TangramVC.swift in Sources */,
 				DB7A33DA1C8F8E8B009CC743 /* ViewController.swift in Sources */,
 				DB7A33D81C8F8E8B009CC743 /* AppDelegate.swift in Sources */,
 			);
@@ -281,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC84EA81C985BBB00EE80D8 /* MapzenSearchManager.swift in Sources */,
 				DB7A33ED1C8F8E8B009CC743 /* ios_sdkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -364,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -402,12 +617,28 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6867A3C7E4941C042B75910 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-sdk/src",
+					"$(PROJECT_DIR)/tangram",
+				);
 				INFOPLIST_FILE = "ios-sdk/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Pelias\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mapzen.ios-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -415,12 +646,27 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F48818E5161A9E383CA1C689 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-sdk/src",
+					"$(PROJECT_DIR)/tangram",
+				);
 				INFOPLIST_FILE = "ios-sdk/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Pelias\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mapzen.ios-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
