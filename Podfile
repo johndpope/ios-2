@@ -1,5 +1,7 @@
 platform :ios, '9.0'
 use_frameworks!
 
-#pod 'Pelias', '~> 1.0.0-beta1'
-pod 'Pelias', :path => '~/coding/git_projects/pelias-ios-sdk'
+target "ios-sdk" do
+  #pod 'Pelias', '~> 1.0.0-beta1'
+  pod 'Pelias', :git => 'https://github.com/pelias/pelias-ios-sdk.git'
+end
